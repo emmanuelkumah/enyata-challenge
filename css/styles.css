@@ -13,7 +13,7 @@ body {
   background: #029f58;
   background-image: url(../images//heroBackground.png);
   height: auto;
-  padding: 2rem 3.5rem 0rem;
+  padding: 3rem 3.5rem 0rem;
 }
 nav {
   display: flex;
@@ -21,7 +21,7 @@ nav {
 }
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  gap: 3.5rem;
 }
 ul {
   list-style-type: none;
@@ -74,4 +74,217 @@ ul > li {
 }
 .rightPhone {
   left: 12%;
+}
+/* About Section */
+.aboutSection {
+  background: #fafafa;
+  background-image: url(../images/noise.png);
+  padding-bottom: 4rem;
+}
+.aboutRow {
+  display: flex;
+}
+.aboutCol {
+  flex: 50%;
+}
+.aboutDesc {
+  position: relative;
+  padding-left: 2rem;
+}
+.aboutDesc > img {
+  margin-top: 2rem;
+}
+.aboutHeading {
+  padding-left: 1rem;
+  position: absolute;
+  top: 55%;
+}
+.aboutHeading > h2 {
+  color: #007640;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1.1;
+}
+.aboutHeading > p {
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+.aboutBubble {
+  position: relative;
+  left: 17%;
+}
+/* Connect section */
+.connectSection {
+  display: flex;
+  margin-top: 8rem;
+}
+.connectSection_col {
+  flex: 50%;
+}
+.connectDetails {
+  padding-left: 3.5rem;
+}
+.connectDetails > p:nth-of-type(2) {
+  padding-top: 2rem;
+  padding-right: 15rem;
+  line-height: 1.8;
+}
+.connectDetails > h2 {
+  font-size: 68px;
+  font-weight: 500;
+  padding-right: 5rem;
+  line-height: 1;
+}
+.connectFans {
+  background: #ffbb62;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.connectImg {
+  position: relative;
+  left: 20%;
+  bottom: 15%;
+}
+.chatSection {
+  display: flex;
+  -webkit-box-shadow: 0px -4px 30px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px -4px 30px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px -4px 30px rgba(50, 50, 50, 0.5);
+}
+.chatSection_col {
+  flex: 50%;
+}
+.chatDetails_Bckgrnd {
+  background: #007640;
+  background-image: url(../images/noise.png);
+
+  color: #fff;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+.chatDetails_img {
+  background: red;
+  background-image: url(../images/noise.png);
+}
+.chatIcon_section {
+  padding-top: 15rem;
+  position: relative;
+}
+.chatIcon_section > p {
+  background-color: #ffbb62;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  position: absolute;
+  top: 40%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+.chatIcon_section > img {
+  position: absolute;
+  right: 18%;
+  top: 30%;
+}
+.chatSection_heading {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.chatSection_subHeading {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-right: 7rem;
+  padding-bottom: 12rem;
+}
+.chat_container {
+  background: #f0f0e6;
+  background-image: url(../images/noise.png);
+  position: relative;
+}
+
+.chat_topFan {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+.chat1,
+.chat2,
+.chat3,
+.chatMsg {
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.chat1 {
+  width: 380px;
+  border-bottom-left-radius: 15px;
+  top: 20%;
+  left: 30%;
+}
+.chat2,
+.chat3 {
+  border-bottom-right-radius: 15px;
+  left: 12%;
+}
+.chat2 {
+  top: 45%;
+}
+.chat3 {
+  top: 63%;
+}
+.chatMsg {
+  left: 12%;
+  bottom: 1%;
+}
+/* Influencer */
+.influencer_row {
+  display: flex;
+  position: relative;
+}
+.influencer_col {
+  flex: 50%;
+  position: relative;
+}
+.influencer_heading {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 68.75px;
+  padding-right: 10rem;
+}
+.influencer_subHeading {
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 13rem;
+  margin-top: 3rem;
+}
+.influencer_tag {
+  background: #ff8c62;
+  font-size: 16px;
+  font-weight: 500;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.influencer_phone {
+  position: relative;
+  left: 10%;
+  margin-top: 4rem;
+}
+.influencer_details {
+  padding-top: 8rem;
+}
+/* Influencer row 2 */
+.influencer_row_2 {
+  display: flex;
+}
+.influencer_col_2 {
+  flex: 50%;
 }
