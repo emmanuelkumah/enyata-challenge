@@ -19,7 +19,9 @@ nav {
   justify-content: space-between;
   padding: 2rem 5rem;
 }
-
+.nav_menu {
+  display: none;
+}
 .nav-links {
   display: flex;
   gap: 3.5rem;
@@ -393,8 +395,6 @@ ul > li {
   margin-bottom: 2rem;
   border-top: 1px solid #e5e5e5;
   position: relative;
-  /* padding-bottom: 2rem; */
-  /* top: 20%; */
 }
 /* footer */
 .footer_subscribe {
@@ -461,45 +461,50 @@ ul > li {
 /* Phones   */
 @media only screen and (max-width: 600px) {
   nav {
-    /* display: none; */
-    padding-left: 3rem;
+    padding: 2rem 2rem;
   }
   .nav-links {
     display: none;
+  }
+  .nav_menu {
+    display: inline;
+    width: 50px;
+    position: relative;
+    top: 1%;
+    left: 2%;
   }
   .heroContent {
     text-align: justify;
     padding-top: 0rem;
   }
   .heroContent > h1 {
-    font-size: 50px;
-    padding: 2rem 3rem;
+    font-size: 3rem;
+    padding: 2rem 2rem;
   }
   .heroContent > p {
-    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
   }
   .storeBtn {
     flex-wrap: wrap;
-    /* flex-direction: column; */
   }
   .storeBtn > img:nth-of-type(2) {
     padding-top: 2rem;
     margin-left: 0;
   }
   .phoneSection > img {
-    width: 70vw;
+    width: 60vw;
   }
   .rightPhone {
     left: 32%;
   }
   .leftPhone {
-    right: 35%;
+    right: 39%;
   }
   .verticalPhone {
     margin-right: 3rem;
   }
   .aboutRow {
-    /* display: none; */
     display: inline;
   }
   .aboutCol {
@@ -507,7 +512,7 @@ ul > li {
   }
   .aboutHeading {
     position: static;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
   }
   .aboutDesc > img {
     display: block;
@@ -516,7 +521,7 @@ ul > li {
 
   .aboutHeading > h2 {
     position: static;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .aboutBubble {
     display: none;
@@ -540,16 +545,16 @@ ul > li {
     position: static;
     display: block;
     margin: 1rem auto;
-    width: 80vw;
+    width: 60vw;
   }
   .connectDetails > h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     line-height: 1;
   }
   .connectDetails > p:nth-of-type(2) {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
   .connectFans {
     margin-bottom: 0rem;
@@ -569,7 +574,7 @@ ul > li {
     flex: 100%;
   }
   .chatDetails_Bckgrnd {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
   .chatSection_heading {
     font-size: 3.5rem;
@@ -603,8 +608,7 @@ ul > li {
     position: static;
     display: block;
     margin: 1rem auto;
-
-    width: 80vw;
+    width: 60vw;
   }
   .influencer_tag {
     margin-top: 1rem;
@@ -615,11 +619,11 @@ ul > li {
     padding-top: 0rem;
   }
   .influencer_heading {
-    font-size: 4rem;
-    padding: 2rem 3rem 0rem;
+    font-size: 3.5rem;
+    padding: 2rem 2rem 0rem;
   }
   .influencer_subHeading {
-    padding: 1rem 3rem;
+    padding: 1.5rem 2rem;
     margin-top: 0rem;
   }
   .influencer_row_2 {
@@ -633,18 +637,26 @@ ul > li {
     width: 80vw;
   }
   .influencer_content {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
+  }
+  .influencer_content > h2 {
+    font-size: 3.5rem;
   }
   .influencer_filter_sec {
     position: relative;
     margin-top: 2rem;
   }
+  .influencer_filter_sec > p {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+  }
   .assurance_row {
     flex-direction: column;
   }
   .assuranceHeading {
-    font-size: 4rem;
-    padding: 2rem 3rem;
+    font-size: 3.5rem;
+    padding: 2rem 2rem;
   }
   .assurance_col {
     flex: 100%;
@@ -662,9 +674,10 @@ ul > li {
   }
   .assurance_download {
     width: 80vw;
+    top: -122px;
   }
   .footer_subscribe {
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
   }
   .footer_input {
     display: flex;
@@ -681,14 +694,14 @@ ul > li {
     border-bottom-left-radius: 10px;
   }
   .footer_logo_container {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
   .footer_details {
     flex-direction: column;
   }
   .footer_details_col {
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
 }
 
@@ -698,15 +711,22 @@ ul > li {
     padding-left: 3rem;
   }
   .nav-links {
-    display: flex;
-    gap: 1rem;
+    display: none;
+  }
+
+  .nav_menu {
+    display: inline;
+    width: 50px;
+    position: relative;
+    top: 1%;
+    left: 2%;
   }
   .heroContent {
     text-align: justify;
     padding-top: 0rem;
   }
   .heroContent > h1 {
-    font-size: 100px;
+    font-size: 5.5rem;
     padding: 2rem 3rem;
   }
   .heroContent > p {
